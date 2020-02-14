@@ -1,0 +1,114 @@
+
+  .container {
+    border: 3px solid black;
+    text-align: center;
+    position: relative;   
+  }
+  .header{
+      text-align: center;
+      background: url(https://static8.depositphotos.com/1004062/1004/i/950/depositphotos_10049044-stock-photo-paper-texture-may-use-as.jpg);
+      color: black;
+      padding: 40px;
+  }
+ .header h1 {
+   font-size: 65px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 1px 2px 5px gray;
+
+  }
+ .center h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 13, 13);
+ 
+   }
+  .right h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+ 
+  .topbar{
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  }
+  .row{
+
+      display: flex;
+     margin: 10px;
+  }
+  .left{
+   
+      flex: 33%;
+      padding: 10px;
+      float: left;
+      background-color: white;
+    
+  }
+  .center{
+    flex: 42%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    float: center;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(196, 192, 192);
+
+}
+.right{
+
+    flex: 25%;
+    padding: 10px;
+    padding-top: 70px;
+    float: right;
+    padding-left: 150px;
+    background-color: white;
+    text-align: left;
+}
+  p {
+    font-family: verdana;
+    font-size: 15px;  
+}    
+.border{
+   background-color: rgb(126, 13, 13);
+    height: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+a:link {
+    text-decoration: none;
+
+  }
+
+.bg {
+height: 200px;
+
+background-repeat: no-repeat;
+padding: 10px;
+margin-top: 20px;
+background: 
+linear-gradient(
+  rgba(250, 248, 248, 0.7),
+  rgba(238, 236, 236, 0.5)
+),
+url(https://cdn.investintech.com/images/articles/free-ms-word-alternatives.jpg);
+background-size: cover;
+
+}
+.bg h3 {
+    opacity: 1;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #000000
+}
+ 
+   
